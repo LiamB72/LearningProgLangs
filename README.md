@@ -1,2 +1,2 @@
-# C_Learning
-My way through the learning of the coding language C
+# Learning the coding Language C
+My way through learning of the coding language C
