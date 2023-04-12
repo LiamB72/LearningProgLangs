@@ -11,6 +11,7 @@ struct Player
 
 int main(){
     
+    //Creating the names variables and getting the user to input them
     char namePlayer1[15];
     char namePlayer2[15];
 
@@ -23,6 +24,10 @@ int main(){
     fgets(namePlayer2, 15, stdin);                        //Get the User Input Player 2
     namePlayer2[strlen(namePlayer2)-1] = '\0';            //Remove the new line
 
+
+
+    //Uses the names to input them for the struct Player player1 & player2
+    
     struct Player player1;                                //Create variable for player1 with the struct of Player
     struct Player player2;                                //Create variable for player2 with the struct of Player
     
