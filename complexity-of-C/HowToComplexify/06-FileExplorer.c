@@ -12,8 +12,13 @@ int main(){
 
     name[strlen(name)-1] = '\0';
 
+    //You specify the place where the document will be generated like this :
+    //FILE *pF = fopen(C:\\Users\\{UserName}\\Desktop\\name,"w");
+    FILE *pF = fopen("C:\\Users\\Liam BERGE\\Desktop\\test.txt","w");
 
-    FILE *pF = fopen(name,"w");
+    //You can write : "w"
+    //You can append : "a"
+    //You can read : "r"
 
     fprintf(pF, "Something's written here, but I don't know what it is...");
 
