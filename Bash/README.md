@@ -63,3 +63,18 @@ bg : background
 (similar to & but for already running tasks)
 
 cmd -opt args & : throw the task in bg
+CTRL + Z : Stopped but doesn't kill the current task
+CTRL + C : Kills the current task
+
+">" Redirects the content of whatever it was ask before into a new file that will be created (even if said file already exist).
+EX : ls
+a/ B/ c/ d.txt efg.c
+ls > files.txt
+cat files.txt
+a
+B
+c
+d.txt
+efg.c
+
+">>" Redirect the content of the cmd before hand into an existant file (will not create a new file)
