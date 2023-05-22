@@ -81,3 +81,15 @@ efg.c
 Black Hole of doom : /dev/null
 2> redirects whatever error into a new file
 2>> redirects whatever error into an existing file
+
+"<" Input what you've put after this into the cmd you gave before it.
+EX : wc (word count) -l < files.txt
+5
+
+" | " : Called a pipe redirected the output of a cmd into another
+EX : history | wc -l
+6942
+
+!^ : First Arg.
+!$ : Last Arg.
+!* : All Arg.
