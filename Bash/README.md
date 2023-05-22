@@ -77,4 +77,7 @@ c
 d.txt
 efg.c
 
-">>" Redirect the content of the cmd before hand into an existant file (will not create a new file)
+">>" Redirect the content of the cmd before hand into an existing file (will not create a new file)
+Black Hole of doom : /dev/null
+2> redirects whatever error into a new file
+2>> redirects whatever error into an existing file
