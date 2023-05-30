@@ -5,6 +5,9 @@ Take least amout of keys to be tapped to execute what you want to do.
 
 Help :
 
+
+_**Sq No.2**_
+
 CTRL + A : Return to the start of the line
 CTRL + E : Goes to the end of the line
 CTRL + U : Cut up to the start the line 
@@ -62,34 +65,27 @@ fg : foreground %1
 bg : background 
 (similar to & but for already running tasks)
 
-cmd -opt args & : throw the task in bg
-CTRL + Z : Stopped but doesn't kill the current task
-CTRL + C : Kills the current task
+cmd -opt args & : throw the task in bg;
+CTRL + Z : Stopped but doesn't kill the current task;
+CTRL + C : Kills the current task;
 
-">" Redirects the content of whatever it was ask before into a new file that will be created (even if said file already exist).
-EX : ls
-a/ B/ c/ d.txt efg.c
-ls > files.txt
-cat files.txt
-a
-B
-c
-d.txt
-efg.c
+">" : creates and redirects to a file (**If said file is already existing, it will overwrite its entire content**);
+">>" : redirected the output by adding it inside of a file.;
+2> : redirects whatever error into a new file;
+2>> : redirects whatever error into an existing file;
+"<" Input what you've put after this into the cmd you gave before it.;
+EX : wc (word count) -l < files.txt ->
+*5*
+Black Hole : /dev/null;
 
-">>" Redirect the content of the cmd before hand into an existing file (will not create a new file)
-Black Hole of doom : /dev/null
-2> redirects whatever error into a new file
-2>> redirects whatever error into an existing file
+" | " : Called a pipe redirected the output of a cmd into another;
+EX : history | wc -l ->
+*6942*
 
-"<" Input what you've put after this into the cmd you gave before it.
-EX : wc (word count) -l < files.txt
-5
+!^ : First Arg;
+!$ : Last Arg;
+!* : All Arg;
 
-" | " : Called a pipe redirected the output of a cmd into another
-EX : history | wc -l
-6942
+_**Sq No.3**_
 
-!^ : First Arg.
-!$ : Last Arg.
-!* : All Arg.
+printenv : Prints every variables predefined;
