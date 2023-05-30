@@ -74,8 +74,7 @@ CTRL + C : Kills the current task;
 2> : redirects whatever error into a new file;
 2>> : redirects whatever error into an existing file;
 "<" Input what you've put after this into the cmd you gave before it.;
-EX : wc (word count) -l < files.txt ->
-*5*
+EX : wc (word count) -l < files.txt -> *5*
 Black Hole : /dev/null;
 
 " | " : Called a pipe redirected the output of a cmd into another;
