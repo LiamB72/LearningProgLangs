@@ -87,4 +87,5 @@ EX : history | wc -l ->
 
 _**Sq No.3**_
 
-printenv : Prints every variables predefined;
+printenv : Prints every variables predefined  
+set : Prints every single existing variables
