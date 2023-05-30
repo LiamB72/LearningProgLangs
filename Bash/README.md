@@ -8,23 +8,23 @@ Help :
 
 _**Sq No.2**_
 
-CTRL + A : Return to the start of the line
-CTRL + E : Goes to the end of the line
-CTRL + U : Cut up to the start the line 
+CTRL + A : Return to the start of the line  
+CTRL + E : Goes to the end of the line  
+CTRL + U : Cut up to the start the line  
 CTRL + K : Cut up to the end of the line  
-CTRL + Y : Pastes the line copied with CTRL + U
-Alt + Backspace : CTRL + Backspace on windows
-Alt + D : CTRL + suppr on windows
+CTRL + Y : Pastes the line copied with CTRL + U  
+Alt + Backspace : CTRL + Backspace on windows  
+Alt + D : CTRL + suppr on windows  
 
-CTRL + R : makes you remember a cmd you exe
+CTRL + R : makes you remember a cmd you exe  
 
-history : list every cmds that has be executed
-!! : execute back the last cmd made
-!.. : exe back the cmd that starts by what you put
-!?.. : exe the last cmd that has .. inside
-!# : (# is a number in the history) to exe the cmd at
+history : list every cmds that has be executed  
+!! : execute back the last cmd made  
+!.. : exe back the cmd that starts by what you put  
+!?.. : exe the last cmd that has .. inside  
+!# : (# is a number in the history) to exe the cmd at  
 
-Sequence1 ->  S*1 :
+Sequence1 ->  S*1 :  
 it replace the whole word (like a tab)
 EX:
 A14  |  A15
@@ -69,12 +69,12 @@ cmd -opt args & : throw the task in bg;
 CTRL + Z : Stopped but doesn't kill the current task;
 CTRL + C : Kills the current task;
 
-">" : creates and redirects to a file (**If said file is already existing, it will overwrite its entire content**);
-">>" : redirected the output by adding it inside of a file.;
-2> : redirects whatever error into a new file;
-2>> : redirects whatever error into an existing file;
-"<" Input what you've put after this into the cmd you gave before it.;
-EX : wc (word count) -l < files.txt -> *5*
+">" : creates and redirects to a file (**If said file is already existing, it will overwrite its entire content**)  
+">>" : redirected the output by adding it inside of a file  
+2> : redirects whatever error into a new file  
+2>> : redirects whatever error into an existing file  
+"<" Input what you've put after this into the cmd you gave before it  
+EX : wc (word count) -l < files.txt -> *5*  
 Black Hole : /dev/null;
 
 " | " : Called a pipe redirected the output of a cmd into another;
